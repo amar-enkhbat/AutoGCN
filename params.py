@@ -18,7 +18,8 @@ PARAMS = {
     'EXCLUSIONS': [88, 89, 92, 100],
 
     # Global Hyperparameters
-    'N_EPOCHS': 2,    
+    'N_EPOCHS': 300,
+    # 'N_EPOCHS': 2,  # For testing
     'LR': 0.001,
     'BATCH_SIZE': 32,
     'SEQ_LEN': 100,
