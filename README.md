@@ -69,10 +69,10 @@ imagine_rnn	        0.404094827586207	0.406927637108595	0.407997732444192
 ### Results from paper:
 ![Results](./images/paper_results.png)
 
-Results are in directories:
-output/output_105_subjects_final
-output/output_50_subjects_final
-output/output_20_subjects_final
+Results are in directories:  
+output/output_105_subjects_final  
+output/output_50_subjects_final  
+output/output_20_subjects_final  
 ## About this work
 
 ### Abstract
