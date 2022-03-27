@@ -1,6 +1,5 @@
 env/
 dataset/
 __pycache__/
-output/
 
 test.ipynb
