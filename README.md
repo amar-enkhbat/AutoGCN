@@ -75,7 +75,7 @@ output/output_50_subjects_final
 output/output_20_subjects_final  
 ## About this work
 
-### Abstract
+### Abstract ()
 Brain-computer interface or BCI is a direct communication pathway between the brain’s electrical activity and and external electronic devices such as computers or robotic wheelchair or limbs. Creating a BCI that can accurately classify motor movement imagery has numerous potential applications such as: creating interface between computers and humans with partial or full motor disability, supporting motor rehabilitation of post-stroke patients, video game controller and various otherneural interface devices. This is usually accomplished by 1) acquiring brain signals, 2) Extracting features, 3) Decoding features and 4) Outputting commands.
 
 There are 2 widely used paradigms for BCI. First paradigm is traditional BCI methods where brain signals are preprocessed using signal processing methods such as Fourier transforms, band-pass filters, spatial filters to extract frequency domain, band power and common spatial pattern (CSP) features. Then extracted features are decoded using classifiers such as LDA, SVM, Gaussian classifier. Second paradigm is end-to-end Deep Learning (DL) where brain signals are handled as time-series data and decoded using Deep Neural Networks (DNN) with complex architecture and large number of trainable parameters. Even though both are widely studied, neither paradigm consider the inherent interconnected graph-like structure of the human brain.
@@ -93,6 +93,8 @@ Finally, experiments conducted in Physionet Motor Movement Imagery dataset show 
 
 ### Learned Effective Conectivities (EC) from PhysioNet EEG MMI dataset
 ![Learned EC](./images/autogcn_autogcram_ec.png)
+
+### Full thesis: [PDF](https://github.com/amar-enkhbat/AutoGCN/blob/main/thesis_2022.pdf)
 
 ### Future work
 1. Adjacency matrix for each label instead of single matrix for whole dataset
